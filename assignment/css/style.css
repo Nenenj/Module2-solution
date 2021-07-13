@@ -8,12 +8,8 @@ body{
 	font-family: georgia serif;
 }
 
-.row{
-	width: 100%;
 
-} 
-
-.menu-title{
+.menu{
 	text-align: center;
 	margin-bottom: 30px;
   font-family: Arial black;
@@ -26,22 +22,28 @@ body{
 	margin: 15px;
 }
 
-.section{
+.row{
+	width: 100%;
+
+} 
+
+.section1{
 	position: relative;
-	top: 0;
 	background-color: #DEB887; 
-	margin: 15px;
+	margin: 17px;
 	padding: 25px;
 	border: 1px solid black;
+	top: 0;
 }
 
-.section p{
-	margin-top: 18px;
-	text-align: justify;
+.section1 p{
+	margin-top: 20px;
 	font-size: 100%;
+	text-align: justify;
+	
 }
 
-.section-title{
+.section1a{
 	position: absolute;
 	top: 0;
 	right: 0px;
@@ -50,16 +52,16 @@ body{
 	border-bottom: 2px solid black;
 }
 
-#title-one{
+#chicken{
 	background-color: #D59898;
   font-family: verdana;
 
 }
-#title-two{
+#beef{
 	background-color: #90FFFF;
   font-family: verdana;
 }
-#title-three{
+#sushi{
 	background-color: #B404AE;
   color: white;
   font-family: verdana;
@@ -89,7 +91,7 @@ body{
 
        /* Mobile  */
        @media (max-width: 767px) {
-       	 .col-sx-12 {
+       	 .col-sm-12 {
        	 	width: 100%;
        	 	float: left;
        	 }
